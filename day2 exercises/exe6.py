@@ -3,5 +3,5 @@ sum=0
 k=1
 while k <= num:
     sum=sum+k
-    print(sum,end=',')
+    print(sum,end=' ')
     k=k+1
