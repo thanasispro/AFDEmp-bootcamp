@@ -4,7 +4,7 @@ sum=0
 new=number[:8]
 new.reverse()
 if len(number) != 9:
-    print('Please enter a valid number with 9 digits')
+    print('Please enter a valid number with 9 digits') #ask to enter a valid number
     
 else:        
  sum=0
