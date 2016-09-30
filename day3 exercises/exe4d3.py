@@ -1,5 +1,5 @@
 num=input('PLEASE ENTER A 9DIGIT NUMBER:')
-number=[int(x) for x in num[0:9]]
+number=[int(x) for x in num[0:9]]   #idia logiki me askisi 3
 k=[]
 m=[]
 n=[]
