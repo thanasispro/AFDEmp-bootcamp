@@ -1,4 +1,4 @@
-year=int(input('ENTER A YEAR:'))
+year=int(input('ENTER A YEAR:'))   #mathimatikoi upologismoi
 
 a=year%4
 b=year%7
