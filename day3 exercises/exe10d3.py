@@ -3,8 +3,8 @@ number=[int(x) for x in num[0:]]
 k=len(number)
 sum1=0
 sum2=0
-m=[]
-e=[]
+m=[] #ftiaxnoume pinaka me ta megalutera sunexomena midenika
+e=[] #antistoixa gia tous asous
 for i in range(k):
     if number[i]==0:
         sum1=sum1+1
@@ -12,7 +12,7 @@ for i in range(k):
     else:
         sum1=0
 
-miden=max(m)
+miden=max(m) #megalutero stoixeio midenikwn
 
 
 for i in range(k):
@@ -22,7 +22,7 @@ for i in range(k):
     else:
         sum2=0
 
-ena=max(e)
+ena=max(e) #megalutero stoixeio asswn
 
 print("Enter binary sequence:",num)
 if miden > ena:
