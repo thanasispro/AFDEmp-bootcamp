@@ -2,17 +2,17 @@ limit=int(input('ENTER LIMIT:'))
 w=[]
 k=[]
 for i in range(1,limit+1):
-    w.append(i)
+    w.append(i)    #ftiaxnoume pinaka me olous tous arithmous
 
 megalutero=max(w)
 for i in range(1,limit):
     if (2**i) <= megalutero:
-      k.append(2**i)
-m=len(k)
+      k.append(2**i) #ftiaxnoume pinaka twn dunamewn tou 2 an kai efoson einai mikrotero=es  tou megaluerou arithmou tou w
+m=len(k)        
 for i in range(m+1):
-    w.remove(2**i)
+    w.remove(2**i) #aferoume tous arithmous
 
-n=len(w)
+n=len(w)    #posoi arithmoi uparxoun meta tin afairesi
 
 
 print("Enter number limit:",limit)
