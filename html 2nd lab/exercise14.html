@@ -11,19 +11,20 @@
    <legend>Personal Data</legend>
    <form action="/my-handling-form-page" method="post">
 
-    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name= "namefield" type="required"><br><br>
-    Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       <input type= "email" name= "emailfield"type="required"><br><br>
-    Preferences:<select name="---" form="---- "   value="-----------">
+    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name= "namefield"  ><br><br>
+    Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       <input type= "email" name= "emailfield" required><br><br>
+    Preferences:<select name="---" form="---- "   value="-----------" required>
     <option value="kati">-------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
     <option value="kati">12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
     <option value="kati">13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
-    <option value="kati">14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option> 
+    <option value="kati">14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
     </select><br><br>
-    Male <input type="radio" name="gender" type="required" value="male">
-    Female <input type="radio" name="gender" type="required" value="female"> <br><br>
-    Age <input type="checkbox" type="required" name="age"><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" type="required" id="mybutton" value="Register">
+    Male <input type="radio" name="gender" required value="male">
+    Female <input type="radio" name="gender" required value="female"> <br><br>
+    Age <input type="checkbox" required name="age"><br>
+    <input type="submit"  value="Submit">
     <input type="button" id="mybutton" value="Clear Fields">
+
 
    </fieldset>
    </form>
