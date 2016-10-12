@@ -19,10 +19,10 @@ public class Pyex4{
 					System.out.print("The solutions of quadratic equation is:");
 					System.out.println();
 					System.out.print("x1=");
-                    System.out.printf("%.2f",x1);
+                                        System.out.printf("%.2f",x1);
 					System.out.println();
 					System.out.print("x2=");
-                    System.out.printf("%.2f",x2);
+                                        System.out.printf("%.2f",x2);
 				}else{
 					System.out.printf("You have no real-valued solutions for this equation");
 				}
