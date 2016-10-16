@@ -1,3 +1,4 @@
+'''calculation of  the area of a triange given its sides'''
 import math
 a= int(input("The side a is:"))
 b= int(input("The side b is:"))
