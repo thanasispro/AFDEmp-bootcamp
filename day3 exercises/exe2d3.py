@@ -1,3 +1,5 @@
+'''a program that asks the user for an 8-bit binary number and 
+   replies whether the parity bit checks OK'''
 num=input('PLEASE ENTER THE BINARY NUMBER:')
 number=[int(x) for x in num[0:8]]
 parity=number[0:7]
