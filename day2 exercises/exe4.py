@@ -1,3 +1,5 @@
+'''valid solutions  of a 
+      quadratic equation'''
 import math
 print("for the equation form:ax**2+bx+c:")
 a= float(input("a=:"))
