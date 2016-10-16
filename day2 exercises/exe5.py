@@ -1,3 +1,4 @@
+'''  first five terms of the harmonic sequence'''
 i=1
 sum=i
 print(i)
