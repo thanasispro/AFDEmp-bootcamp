@@ -1,3 +1,5 @@
+ '''program that will ask the user for TIN and will respond whether it is correct or not'''
+
 idn=input('PLEASE ENTER YOUR TAX INDENTIFICATION NUMBER:')
 number=[int(x) for x in idn[0:9]] #ftiaxnoume pinaka
 sum=0
