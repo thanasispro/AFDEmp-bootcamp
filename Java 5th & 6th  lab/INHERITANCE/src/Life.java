@@ -16,7 +16,7 @@ public class Life extends Insurance {
 	}
 	
 	public int calculateExpence(){
-		if(getSex()=="female")
+		if(getSex()=="FEMALE")
 		return 100+7*calculateAge();
 		else
 		return 100+7*calculateAge()+50;
