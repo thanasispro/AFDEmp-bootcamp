@@ -1,4 +1,5 @@
 
+
 public class Health extends Insurance {
 	
 	private int expence;
@@ -13,10 +14,14 @@ public class Health extends Insurance {
 	}
 	
 	public int calculateExpence(){
-		if(getSex()=="female")
+		if(getSex()=="FEMALE"){
 		return 100+7*calculateAge();
-		else
-		return 100+7*calculateAge()+50;
+		}else{
+		return 100+7*calculateAge()+50;}
+	}
+	
+	public int calculateAmount(){
+		return 100+5*calculateAge();
 	}
 	
 	
@@ -27,7 +32,7 @@ public class Health extends Insurance {
 	public void printHealth(){
 		System.out.print("|||        CUSTOMER'S INFO        |||\n\nID:"+id+"\nName:" + getFname() + " "
 	            + getLname()+"\nBirth year:"+getYear()+"\nSex:"+getSex()+"\n"+"Insurance code:"+getIdc()+
-	            "\nExpence:"+calculateExpence()+"\n");
+	            "\nExpence:"+calculateExpence()+"$\n"+"Amount: "+calculateAmount()+"$\n");
 	}
 	
 }
